@@ -24,12 +24,17 @@ body
 .stopWatch-container
 {
     height: 10rem;
-    width: 30rem;
+    // width: 35rem;
     @include display(flex,center,center,column);
     gap: 1rem;
 }
 
-.stopWatch-container .timer
+.stopWatch-container .timer-container
+{
+   width: 35rem;
+}
+
+.timer-container .timer
 {
     font-size: 5.3rem;
     text-shadow: 0rem 0rem .5rem var(--main-color);
@@ -48,6 +53,7 @@ body
 {
     padding: .5rem 1rem;
     border: 2px solid white;
+    width: 5rem;
     background: transparent;
     cursor: pointer;
     color: var(--font-color);
