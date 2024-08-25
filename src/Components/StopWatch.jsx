@@ -84,7 +84,7 @@ function StopWatch()
 
     return (
         <div className="stopWatch-container">
-            <div className="timer">
+            <div className="timer-container">
                <span className="timer">{hours} : </span>
                <span className="timer">{minutes} : </span>
                <span className="timer">{seconds} : </span>
