@@ -76,3 +76,38 @@ body
     font-weight: 600;
     margin-bottom: -1rem;
 }
+
+
+// Responssive section  [[[[[[[      Start    ]]]]]]]
+
+@media(max-width:580px)
+{
+    html{
+        font-size: 70%;
+    }
+    
+  
+}
+
+@media(max-width:415px)
+{
+    html{
+        font-size: 60%;
+    }
+
+    .btn-container .btn
+    {
+        width: unset;
+    }
+}
+
+
+@media(max-width:355px)
+{
+    html{
+        font-size: 2.5vw;
+    }
+ 
+}
+
+// Responssive section  [[[[[[[       End     ]]]]]]]
